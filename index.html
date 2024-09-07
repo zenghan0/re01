@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>  <!-- 引入JavaScript文件 -->
+</head>
+<body>
+
+<div class="header">
+    <img src="logo.png" alt="Logo" class="logo">
+    <h1 class="title">xuanyin02</h1>
+    <p class="intro">Hi there, I'm trying to develop a simple website.</p>
+</div>
+
+<div class="content">
+    <h2>qingyue</h2>
+    <p>qingyue<br>xuanyin</p>
+    <img src="image.jpg" alt="Content Image" class="content-image">
+
+    <!-- 显示点击次数的按钮 -->
+    <button onclick="incrementClickCount()">点击我</button>
+    <p id="clickCounter">页面点击次数: 0</p> <!-- 显示点击次数 -->
+
+    <!-- 显示B站粉丝数量 -->
+    <p id="followerCount">B站粉丝数量: 正在获取...</p>
+</div>
+
+</body>
+</html>
